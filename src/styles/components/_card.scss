@@ -5,6 +5,7 @@
     background-color: white;
 
     &__header {
+        display: block;
         padding: 15px;
         background-color: rgb(233, 129, 50);
 
@@ -13,7 +14,8 @@
         }
     }
 
-    &__content{
+    &__content {
+        display: block;
         padding: 15px;
         overflow: hidden;
         background-color: white;
