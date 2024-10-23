@@ -9,8 +9,12 @@
         padding: 15px;
         background-color: rgb(233, 129, 50);
 
-        &--bg-blue {
-            background-color: rgb(49,233,217);
+        &[color="blue"] {
+            background-color: #32e9da;
+        }
+
+        &[color="red"] {
+            background-color: #e9323e;
         }
     }
 

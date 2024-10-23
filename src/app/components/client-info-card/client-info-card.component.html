@@ -1,9 +1,11 @@
 <app-card>
-    <app-card-header color="ca-c-card__header--bg-blue">
+    <!-- 
+        color='blue' -> Utilizado quando a mudança de cor for statica. 
+        [attr.color]="headerColor" -> Utilizado quando a mudança de cor for dinâmica
+    -->
+    <app-card-header [attr.color]="headerColor">
         <app-card-title title="Informações do Cliente" icon="icon-client.png"></app-card-title>
     </app-card-header>
-    <!-- <div class="ca-c-card__header ca-c-card__header--bg-blue">
-    </div> -->
     <app-card-content>
         <app-card-item text="Nome" value="John Dee"></app-card-item>
         <app-card-line></app-card-line>
