@@ -1,27 +1,55 @@
-# CardsAngular
+# Cards
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+This Angular project is designed to display information related to a client’s account and cards (credit and debit). It follows a modular structure and implements advanced Angular concepts such as componentization, content projection, and custom directives. The layout features four main cards, each presenting specific client details.
 
-## Development server
+### Branch Structure
+1. **main**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+   - Basic project structure.
+   - Contains the initial layout with four static cards.
 
-## Code scaffolding
+2. **refatoracao**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   - Componentization: Each card was separated into its own Angular component.
+   - SCSS reorganization using best practices to enhance maintainability and scalability.
 
-## Build
+3. **aplicando-projecao-diretivas**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   - Content Projection: Added to allow content customization in components.
+   - Custom Directives: Introduced to improve functionality and code reusability across components.
 
-## Running unit tests
+## How to run the project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone repository:**
 
-## Running end-to-end tests
+```bash
+git clone git@github.com:Phyllipesa/cards-angular.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Go to the project's directory:**
 
-## Further help
+```bash
+cd cards-angular
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. **Install dependencies:**
+
+```bash
+npm install
+```
+
+3. **Run  application:**
+
+```bash
+ng serve
+```
+
+4. Access application at: `http://localhost:4200`
+
+
+## Tecnologies
+
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) </br>
+ ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
+
