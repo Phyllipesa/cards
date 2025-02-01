@@ -1,27 +1,43 @@
-# CardsAngular
+# Cards
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+This Angular project is designed to display information related to a client’s account and cards (credit and debit). It follows a modular structure and implements advanced Angular concepts such as componentization, content projection, and custom directives. The layout features four main cards, each presenting specific client details.
 
-## Development server
+## Branch Structure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **main:**
+   - Basic project structure.
+   - Contains the initial layout with four static cards.
+- **refatoracao:**
+  - **Componentization:** Each card was separated into its own Angular component.
+  - **SCSS reorganization:** Using best practices to enhance maintainability and scalability.
+- **aplicando-projecao-diretivas:**
+  - **Content Projection:** Added to allow content customization in components.
+  - **Custom Directives:** Introduced to improve functionality and code reusability across components.
 
-## Code scaffolding
+## How to run the project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone repository:**
+   ```bash
+   git clone git@github.com:Phyllipesa/cards.git
+   ```
+2. **Go to the project's directory:**
+   ```bash
+   cd cards
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Run the application:**
+   ```bash
+   ng serve
+   ```
+5. Access the app at [http://localhost:4200](http://localhost:4200)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologies
 
-## Running unit tests
+ ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+ ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
